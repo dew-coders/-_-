@@ -6931,7 +6931,7 @@ socket.ev.on('creds.update', async () => {
 
           // Load per-session config (botName, logo)
           const userConfig = await loadUserConfigFromMongo(sanitizedNumber) || {};
-          const useBotName = userConfig.botName || BOT_NAME_FANCY;
+          const useBotName = "BESTI MINI";
           const useLogo = userConfig.logo || config.RCD_IMAGE_PATH;
 
           const initialCaption = formatMessage(useBotName,
