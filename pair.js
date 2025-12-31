@@ -998,7 +998,7 @@ case 'alive': {
         const botName = cfg.botName || "🍁 ${botName}  🍁";
         const ownerName = config.OWNER_NAME || '🩷bestie💙';
         const logo = cfg.logo || config.RCD_IMAGE_PATH || 'https://files.catbox.moe/6h6jc8.jpeg'; // Default Image
-
+		
         // 5. The Fake "10PB" Document Message
         const aliveMessage = `
 ╭⦁⦁⦁⦁>─────•────>
@@ -1009,7 +1009,7 @@ case 'alive': {
 │⚋⚋𝙨𝙮𝙨𝙩𝙚𝙢𝙨⚋⚋>
 │
 > *⇝BOT NAME* : ${botName}
-> *⇝OWNED* : ${ownername}
+> *⇝OWNED* : ${ownerName}
 > *⇝SPEED* : ${ping} 𝘮𝘴⇝
 > *⇝UPTIME* : ${days}D ${hours}H ${minutes}M
 > ⚋⚋⚋⚋⚋⚋⚋⚋>
@@ -3811,7 +3811,6 @@ case 'menu': {
 ┃┃•  ᴘʟᴀᴛꜰᴏʀᴍ : ${platform}
 ┃┃•  ᴅᴀᴛᴇ : ${new Date().toLocaleDateString()}
 ┃┃•  ᴛɪᴍᴇ :  ${new Date().toLocaleTimeString()}
-┃┃•  ᴜᴘᴛɪᴍᴇ : ${uptimeStr}
 ┃┃•  ᴘʟᴜɢɪɴꜱ :  ${cores}
 ┃╰━━━━━━━━━━━━━◉
 ╰━━━━━━━━━━━━━━>
