@@ -37,7 +37,7 @@ const config = {
   PREFIX: '.',
   MAX_RETRIES: 3,
   GROUP_INVITE_LINK: 'besta_have_not_group',
-  RCD_IMAGE_PATH: 'https://files.catbox.moe/0c5krk.jpeg,
+  RCD_IMAGE_PATH: 'https://files.catbox.moe/0c5krk.jpeg',
   NEWSLETTER_JID: 'no_newslatter@newsletter',
   OTP_EXPIRY: 300000,
   OWNER_NUMBER: process.env.OWNER_NUMBER || '94779885727',
