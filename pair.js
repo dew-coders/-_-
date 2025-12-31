@@ -995,7 +995,7 @@ case 'alive': {
         // 4. Config Data
         const sanitized = (number || '').replace(/[^0-9]/g, '');
         const cfg = await loadUserConfigFromMongo(sanitized) || {};
-        const botName = cfg.botName || "🍁 ${botName}  🍁";
+        const botName = cfg.botName || "💚𝐁𝐄𝐒𝐓𝐈𝐄_𝐌𝐈𝐍𝐈😘";
         const ownerName = config.OWNER_NAME || '🩷bestie💙';
         const logo = cfg.logo || config.RCD_IMAGE_PATH || 'https://files.catbox.moe/6h6jc8.jpeg'; // Default Image
 		
